@@ -1,0 +1,142 @@
+<!--homepage-->
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WELCOME TO IPTC</title>
+		
+		<link rel="stylesheet" type="text/css" href="coverpage.css">
+		<link rel="stylesheet" type="text/css" href="slideshow.css">
+		<link rel="stylesheet" type="text/css" href="root.css">
+		
+		<script>
+		var imagecount=1;
+		var total=5;
+		
+		function slide(x){
+		var image= document.getElementById('img');
+		imagecount=imagecount+x;
+		if(imagecount>total){
+		imagecount=1;}
+		else if(imagecount<1){
+		imagecount=total;}
+		image.src="slide"+imagecount+".jpg";}
+		
+		window.setInterval(function slide(x){
+		var image= document.getElementById('img');
+		imagecount=imagecount+1;
+		if(imagecount>total){
+		imagecount=1;}
+		else if(imagecount<1){
+		imagecount=total;}
+		image.src="slide"+imagecount+".jpg";},5000);
+		
+		
+		</script>
+		<script src="jquery-3.2.0.js"></script>
+
+	
+	
+	<script src="myjq.js"></script>
+
+	
+	
+		
+	</head>
+<body 	class="model2">
+
+<!--navigation-->
+<ul>
+	
+		
+		<li><a class="active" href="coverpage1123.html"><img height="20px" width="20px" class="ico" src="home.png">Home</a></li>
+		<li class="dropdown"><a href="#" class="dropbtn">Services</a>
+		<div class="dropdown-content">
+		<a href="massage.htm">Massage</a>
+		<a href="chirocare.htm">Chiropratic Care</a>
+		<a href="spinal.htm">Spinal Depression</a>
+		<a href="laser.htm">Class4 Laser</a>
+		<a href="physicaltherapy.htm">Physical Therapy</a>
+			</div></div></li>
+		
+	
+		
+		
+	
+		
+		
+		
+	
+	<li class="dropdown"><a href="#" class="dropbtn">About</a>
+		
+		
+		
+					<div class="dropdown-content">
+						<a href="staff.htm">Our Staff</a>
+		<a href="practice.htm">Our Practice</a>
+		<a href="therapists.htm">Our Therapists</a></div>
+	
+	
+		<li class="dropdown"><a href="chiro.htm" class="dropbtn">Chiropractor Blog</a>
+		<li class="dropdown"><a href="mycontact.htm" class="dropbtn">Contact Us</a>
+		
+	
+		
+	</ul>
+
+	
+<!--logo container-->
+	<table id="table1">
+		<tr>
+			<td width="25%" ><img src="logo.jpg"></td>
+			<td id="td1"  width="75%"><br>Integrative <br><p class="p1">PHYSICAL THERAPY & CHIROPRACTIC</p></td>
+		</tr>
+	</table>
+<!--finish header(2)-->
+	<div id="container">
+		<img id="img" src="slide1.jpg">
+		
+		
+		
+		
+		</div>
+	</div><br><br>
+<!--container holds the slideshow-->
+	
+
+	<center>
+		<table id="table2" cellspacing="20px" >
+		
+		      
+		 
+			<tr>
+				<div>
+					<td width="20%" class="td4"><p class="p2"><div class="model2"><div class="f2"><h1>Chiropractic Care</h1>
+					<img src="slide3.jpg" height="200px" width="200px"><br><br>Through Chiropractic adjustments many of the stressors (such as bad posture, motor vehicle accidents, traumas, or inappropriate sleeping positions) can be relieved. Chiropractors 
+					can play a major role in preventative    <a href="chirocare.htm" alink="grey">Read More</a><br></div></div>
+		
+				<br><br><td width="20%" class="td4"><p class="p2"><div class="model2"><div class="f2"></p><h1>Spinal Decompression</h1><img src="slide10.jpg" height="200px" width="200px"><br><br>
+				What Can Spinal Decompression Do For You? A patient suffering from disc problems usually was given pain medications, instructed to refrain from physical activities and when they were not progressing they were sent for spinal surgery.The New Treatment for Low Back Pain...  <a href="spinal.htm" alink="grey">Read More</td></div></div>
+				<td width="20%" class="td4"><p class="p2"><div class="model2"><div class="f2"></p><h1>Class4 Laser Therapy</h1><img src="slide8.jpg" height="200px" width="200px"><br><br><br>
+				The positive effect of Laser  on tissue is unique to laser therapy, and no other physical therapy method can duplicate those effects.Helping to reduce a patient's pain, inflammation 
+				and even enhance tissue healing, laser therapy is a painless
+<a href="laser.htm" alink="grey">Read More</a></td></div></div>
+				<td width="20%" class="td4"><p class="p2"><div class="model2"><div class="f2"></p><h1>Physical Therapy</h1>
+				<img src="slide9.jpg" height="200px" width="200px"></p><br>What Can Physical Therapy Do For You?Physical Rehabilitation is administered to help restore function, improve mobility, relieve pain, and prevent or limit permanent physical disabilities of patients suffering from injuries or 
+				disease<a href="physicaltherapy.htm" alink="grey">Read More</a></td></div></div>
+			<td width="20%" class="td4"><p class="p2"><div class="model2"><div class="f2"><h1>Massage</h1><br>
+			<img src="slide11.jpg" height="200px" width="200px"><br><br>What Can Massage Therapy Do For You?Therapeutic Massage can help relieve stress, muscle pain, injuries and more. Your body functions so much better when you are in top condition. Sports injuries, household accidents, repetitive actions on the job<a href="massage.htm" alink="grey">Read More</a></p></td></div></div>
+			
+			</tr>
+
+			
+		</table>
+	</center>
+	
+	<div class="footer">
+		<center>
+			<p style="background-color:none;color:white;font-family:Cooper Std Black;font-size:150%;">Our Social Contact<br><br><br><a href="#"><img id="social" src="1478134873_facebook.png"></a><a href="#"><img id="social" src="1478134932_twitter_circle_color.png"></a><a href="#"><img id="social" src="1478134990_WhatsApp.png"></a><br></p>
+		</center>
+	</div>	
+</body>
+</html>
